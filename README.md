@@ -170,6 +170,7 @@ docker-compose run --rm web pytest -v -m "not integration"
 - get rid of requirements.txt and soley rely on uv
 - Swagger / OpenAPI schema generation
 - cloud deployment for playing around in real time
+- isort pre-commit hooks failing - resolve the issue
 
 ---
 ## Known Bugs
