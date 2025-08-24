@@ -1,7 +1,12 @@
 from django.urls import path
 
-from .views import (DestinationListCreateView, GeocodeView, ScheduleCreateView,
-                    ScheduleDetailView, WeatherPreviewView)
+from .views import (
+    DestinationListCreateView,
+    GeocodeView,
+    ScheduleCreateView,
+    ScheduleDetailView,
+    WeatherPreviewView,
+)
 
 urlpatterns = [
     path("destinations/", DestinationListCreateView.as_view(), name="destinations"),
