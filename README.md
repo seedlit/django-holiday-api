@@ -23,8 +23,8 @@ users can create destinations, build travel schedules, and see weather forecasts
 
 ### 1. Clone and setup env
 ```bash
-git clone <repo-url>
-cd holiday-planner-backend
+git clone https://github.com/seedlit/django-holiday-api.git
+cd django-holiday-api
 cp .env.example .env
 ```
 
@@ -54,7 +54,7 @@ response:
 ```bash
 curl -X POST http://localhost:8000/api/v1/destinations/ \
      -H "Content-Type: application/json" \
-     -d '{"name": "Berlin", "latitude": 52.52, "longitude": 13.405, "country": "Germany"'
+     -d '{"name": "Berlin", "latitude": 52.52, "longitude": 13.405, "country": "Germany"}'
 ```
 response:
 ```bash
