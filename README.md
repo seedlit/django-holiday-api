@@ -166,7 +166,6 @@ docker-compose run --rm web pytest -v -m "not integration"
 
 ## Limitations / Wishlist
 - No persistent weather caching (each GET hits API) --> Cache weather responses
-- Timezone handling could be simplified (UTC).
 - No user accounts / auth
 - get rid of requirements.txt and soley rely on uv
 - Swagger / OpenAPI schema generation
